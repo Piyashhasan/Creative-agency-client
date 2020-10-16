@@ -1,0 +1,30 @@
+.Footer{
+    background-color: #FBD062;
+    height: 750px;
+}
+.text{
+    padding-top: 13%;
+}
+.paragraph{
+    padding-top:6%;
+    padding-left: 2%;
+    color: #4B3E1D;
+}
+.form-area{
+    padding-left: 10px;
+    padding-top:11.5%;
+    height: 417px;
+}
+.form-area input{
+    height: 60px;
+    padding:25px;
+    width: 100%;
+}
+.Footer button{
+    background-color: #111430;
+    color: white;
+    width:150px;
+}
+.Footer button:hover{
+    color:#28A745;
+}

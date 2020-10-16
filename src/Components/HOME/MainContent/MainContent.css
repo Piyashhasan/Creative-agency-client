@@ -1,0 +1,12 @@
+.MainContent button{
+    background-color: #111430;
+    color: white;
+    width:150px;
+}
+.MainContent button:hover{
+    color:#28A745;
+}
+.MainContent img{
+    width: 625px;
+    height: 423px;
+}
