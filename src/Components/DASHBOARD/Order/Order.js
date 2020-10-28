@@ -30,7 +30,7 @@ const Order = () => {
         formData.append('details', orderInfo.details)
         formData.append('number', orderInfo.number)
 
-        fetch('http://localhost:5000/addOrder', {
+        fetch('https://nameless-anchorage-32987.herokuapp.com/addOrder', {
             method: 'POST',
             body: formData
         })

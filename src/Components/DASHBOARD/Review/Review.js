@@ -17,7 +17,7 @@ const Review = () => {
     const handelReviewInfo = (e) => {
         e.preventDefault()
         const data={...loggedInUser, ...review}
-        fetch('http://localhost:5000/addReview',{
+        fetch('https://nameless-anchorage-32987.herokuapp.com/addReview',{
             method: 'POST',
             headers:{
                 'Content-Type': 'application/json'

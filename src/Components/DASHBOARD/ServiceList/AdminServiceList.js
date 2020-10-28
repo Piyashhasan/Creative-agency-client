@@ -8,7 +8,7 @@ import './AdminServiceList.css'
 const AdminServiceList = () => {
     const [serviceDetails, setServiceDetails] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/collectOrderInfo')
+        fetch('https://nameless-anchorage-32987.herokuapp.com/collectOrderInfo')
         .then(response => response.json())
         .then(data => setServiceDetails(data))
     }, [])

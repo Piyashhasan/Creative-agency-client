@@ -6,7 +6,7 @@ import { useState } from 'react';
 const ClientsFeedBack = () => {
     const [review, setReview] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/collectReviewInfo')
+        fetch('https://nameless-anchorage-32987.herokuapp.com/collectReviewInfo')
         .then(res => res.json())
         .then(data => setReview(data))
     },[])
